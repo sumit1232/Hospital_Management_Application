@@ -1,0 +1,117 @@
+/* ==============================
+   Patients Layout
+   ============================== */
+.patient-main {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* ==============================
+   Form Section
+   ============================== */
+.form-sections {
+  width: 45%;
+  margin-right: 20px;
+  min-height: 400px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-sections h4 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.form-sections form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-sections form label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-sections form input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-sections form button {
+  align-self: flex-start;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-sections form button:hover {
+  background-color: #0056b3;
+}
+
+/* ==============================
+   Patients Section
+   ============================== */
+.patients-section {
+  width: 45%;
+}
+
+/* ==============================
+   Patient Card
+   ============================== */
+.patient-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.patient-card:hover {
+  transform: scale(1.02);
+}
+
+.patient-card h4 {
+  margin-bottom: 8px;
+}
+
+.patient-card p {
+  margin: 8px 0;
+}
+
+.patient-card button {
+  margin-top: 8px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.patient-card button:hover {
+  background-color: #0056b3;
+}
+
+/* ==============================
+   Button Container
+   ============================== */
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 12px;
+}

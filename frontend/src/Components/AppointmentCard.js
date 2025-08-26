@@ -1,4 +1,5 @@
 import React from 'react';
+import './CSS/AppointmentCard.css';
 
 const AppointmentCard = ({ appointment, onEdit, onDelete }) => {
   if (!appointment) return null; // safeguard

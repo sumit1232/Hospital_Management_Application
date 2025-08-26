@@ -16,8 +16,8 @@ const App = () => {
   return (
     <Router>
       <div className="container">
-        <h1 style={{ color: "green" }}>
-          GFG - Hospital Management App
+        <h1 style={{ color: "green", marginBottom: "20px", textAlign: "center" }}>
+        Hospital Management App
         </h1>
 
         <nav>
